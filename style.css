@@ -8,26 +8,21 @@ body {
 
 header {
     text-align: center;
-    background: rgba(255, 245, 224, 0.9);
+    background: #d4a017; /* Vivid gold */
     padding: 20px;
-    border-bottom: 3px solid #8b4513;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-bottom: 4px solid #8b0000; /* Deep red */
 }
 
 h1 {
     font-size: 2.8em;
-    color: #8b4513;
+    color: #b22222; /* Firebrick red */
     margin: 0;
 }
 
 nav {
-    background: #8b4513;
+    background: #8b0000; /* Deep red */
     padding: 15px;
     text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 nav a {
@@ -36,11 +31,10 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1em;
-    transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #ffd700;
+    color: #d4a017; /* Vivid gold */
     text-decoration: underline;
 }
 
@@ -50,34 +44,19 @@ main {
 }
 
 section {
-    background: rgba(255, 245, 224, 0.95);
+    background: rgba(255, 245, 224, 0.95); /* Light parchment */
     padding: 25px;
     margin: 25px 0;
-    border: 2px solid #8b4513;
+    border: 3px solid #8b0000; /* Deep red */
     border-radius: 8px;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: slideIn 0.5s ease-out forwards;
-}
-
-@keyframes slideIn {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 h2 {
     cursor: pointer;
-    color: #8b4513;
-    border-bottom: 2px solid #8b4513;
+    color: #b22222; /* Firebrick red */
+    border-bottom: 2px solid #8b0000; /* Deep red */
     padding-bottom: 10px;
     font-size: 1.8em;
-    transition: color 0.3s;
-}
-
-h2:hover {
-    color: #a0522d;
 }
 
 .content {
@@ -95,26 +74,16 @@ h2:hover {
     align-items: center;
     margin-bottom: 25px;
     padding: 15px;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid #d4a017; /* Vivid gold */
     border-radius: 5px;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.quote-image:hover {
-    transform: scale(1.02);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .section-image {
     max-width: 100%;
     height: auto;
-    border: 2px solid #8b4513;
+    border: 3px solid #8b0000; /* Deep red */
     border-radius: 8px;
-    transition: transform 0.3s;
-}
-
-.section-image:hover {
-    transform: scale(1.05);
 }
 
 figcaption {
@@ -126,17 +95,18 @@ figcaption {
 
 blockquote {
     font-style: italic;
-    border-left: 5px solid #8b4513;
+    border-left: 5px solid #b22222; /* Firebrick red */
     padding-left: 15px;
     margin: 15px 0;
     font-size: 1.1em;
+    color: #333;
 }
 
 #backToTop {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background: #8b4513;
+    background: #8b0000; /* Deep red */
     color: #fff;
     border: none;
     padding: 12px 25px;
@@ -144,11 +114,10 @@ blockquote {
     border-radius: 8px;
     font-size: 1em;
     display: none;
-    transition: background 0.3s;
 }
 
 #backToTop:hover {
-    background: #a0522d;
+    background: #b22222; /* Firebrick red */
 }
 
 @media (max-width: 768px) {
