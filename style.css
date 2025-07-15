@@ -8,19 +8,19 @@ body {
 
 header {
     text-align: center;
-    background: #d4a017; /* Vivid gold */
+    background: #ffd700; /* Bright gold */
     padding: 20px;
-    border-bottom: 4px solid #8b0000; /* Deep red */
+    border-bottom: 4px solid #ff0000; /* Pure red */
 }
 
 h1 {
     font-size: 2.8em;
-    color: #b22222; /* Firebrick red */
+    color: #006400; /* Dark green */
     margin: 0;
 }
 
 nav {
-    background: #8b0000; /* Deep red */
+    background: #ff0000; /* Pure red */
     padding: 15px;
     text-align: center;
 }
@@ -34,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #d4a017; /* Vivid gold */
+    color: #ffd700; /* Bright gold */
     text-decoration: underline;
 }
 
@@ -47,14 +47,14 @@ section {
     background: rgba(255, 245, 224, 0.95); /* Light parchment */
     padding: 25px;
     margin: 25px 0;
-    border: 3px solid #8b0000; /* Deep red */
+    border: 3px solid #ff0000; /* Pure red */
     border-radius: 8px;
 }
 
 h2 {
     cursor: pointer;
-    color: #b22222; /* Firebrick red */
-    border-bottom: 2px solid #8b0000; /* Deep red */
+    color: #006400; /* Dark green */
+    border-bottom: 2px solid #ff0000; /* Pure red */
     padding-bottom: 10px;
     font-size: 1.8em;
 }
@@ -75,14 +75,14 @@ h2 {
     margin-bottom: 25px;
     padding: 15px;
     background: rgba(255, 255, 255, 0.8);
-    border: 2px solid #d4a017; /* Vivid gold */
+    border: 2px solid #ffd700; /* Bright gold */
     border-radius: 5px;
 }
 
 .section-image {
     max-width: 100%;
     height: auto;
-    border: 3px solid #8b0000; /* Deep red */
+    border: 3px solid #ff0000; /* Pure red */
     border-radius: 8px;
 }
 
@@ -95,7 +95,7 @@ figcaption {
 
 blockquote {
     font-style: italic;
-    border-left: 5px solid #b22222; /* Firebrick red */
+    border-left: 5px solid #006400; /* Dark green */
     padding-left: 15px;
     margin: 15px 0;
     font-size: 1.1em;
@@ -106,7 +106,7 @@ blockquote {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background: #8b0000; /* Deep red */
+    background: #ff0000; /* Pure red */
     color: #fff;
     border: none;
     padding: 12px 25px;
@@ -117,7 +117,7 @@ blockquote {
 }
 
 #backToTop:hover {
-    background: #b22222; /* Firebrick red */
+    background: #006400; /* Dark green */
 }
 
 @media (max-width: 768px) {
